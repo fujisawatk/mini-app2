@@ -1,0 +1,107 @@
+/*ヘッダー*/
+header{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg);
+  height: 100vh;
+}
+
+.navbar-fixed{  
+  .nav{
+    &-wrapper{
+      background-color: #181818;
+    }
+  }
+}
+.brand-logo{
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: cursive;
+}
+
+#audio{
+  padding-top: 5px;
+}
+
+/*メイン*/
+.contents{
+  position: relative;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg);
+  height: 1100px;
+  width: 100vw;
+  padding-top: 10px;
+  font-family: serif;
+  letter-spacing: 3px;
+  .row{
+    display: flex;
+    margin-right: 35%;
+    opacity: 0.8;
+  }
+}
+
+.pagination{
+  background-color: #181818;
+  text-align: center;
+  position: absolute;
+}
+
+/*投稿画面*/
+.contents-n{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg);
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10px;
+}
+.contents-title{
+  color: white;
+  text-align: center;
+}
+
+.form{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #444444;
+  padding: 10px;
+  background-color: #444444;
+}
+.text{
+  height: 80px;
+}
+
+.submit{
+  float: right;
+}
+
+.hide-on-med-and-down{
+  font-family: serif;
+}
+
+/*投稿後*/
+.success{
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.btn{
+  display: block;
+  background-color: #444444;
+}
+.btn:hover{
+  background-color: #444444;
+  opacity: 0.8;
+}
+
+/*登録画面*/
+.reg{
+  height: 500px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #444444;
+  padding: 20px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+
